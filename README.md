@@ -13,27 +13,12 @@ flutter run
 > Materi penjelasan widget dan naskah video presentasi tersedia di
 > [`PENJELASAN_DAN_SCRIPT.md`](PENJELASAN_DAN_SCRIPT.md).
 
-## Data yang terpasang
-
-| Field | Nilai |
-| --- | --- |
-| Nama Lengkap | Muhamad Ilyas |
-| NIM | 24090045 |
-| Kelas | 5B |
-| Tempat, Tanggal Lahir | Tegal, 28 April 2006 |
-| Foto | `assets/foto.jpg` |
 
 ## Cara mengubah data
 
 1. Buka `lib/main.dart`.
 2. Ubah nilai konstanta di bagian **UBAH DATA BIODATA DI BAWAH INI**:
 
-```dart
-const String namaLengkap = 'Nama Lengkap Anda';
-const String nim = '1234567890';
-const String kelas = 'Kelas Anda';
-const String tempatTanggalLahir = 'Kota, 1 Januari 2005';
-```
 
 3. Ganti file `assets/foto.jpg` dengan foto diri Anda (nama file harus tetap
    `foto.jpg`, atau sesuaikan `fotoPath` bila memakai nama lain).
